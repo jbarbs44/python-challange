@@ -37,7 +37,7 @@ with open(budget_data_csv) as csv_file:
 
 Net_Total= sum(budget_list)
 
-#def average(budget_list):
+#Did not work- def average(budget_list):
     #return sum(budget_list)/len(budget_list)
 #Average = average(budget_list)
 
@@ -49,4 +49,3 @@ print(f"Average Change: ${Average_Change}")
 print(f"Greatest Increase in Profits: {date_list[Greatest_Increase_Month]} (${(Greatest_Increase)})")
 print(f"Greatest Decrease in Profits: {date_list[Greatest_Decrease_Month]} (${(Greatest_Decrease)})")
 
-            
