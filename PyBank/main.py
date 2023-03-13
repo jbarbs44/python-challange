@@ -37,9 +37,6 @@ with open(budget_data_csv) as csv_file:
 
 Net_Total= sum(budget_list)
 
-#Did not work- def average(budget_list):
-    #return sum(budget_list)/len(budget_list)
-#Average = average(budget_list)
 
 print("Financial Analysis")
 print("-----------------------------------")
