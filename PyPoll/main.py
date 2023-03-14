@@ -44,7 +44,7 @@ print(Votes_For_Candidates["Raymon Anthony Doane%"])
 #To find the candidate winner
 Votes_For_Candidates_Winner = max(Votes_For_Candidates, key=Votes_For_Candidates.get)
 
-
+#Print each of the required statements as per the module
 print("Election Results")
 print("----------------------------------------")
 print(f"Total Votes: {Vote_Total}")
